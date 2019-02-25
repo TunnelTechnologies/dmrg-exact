@@ -1,0 +1,18 @@
+# run parameters
+data_path: "./training_data/parity_20_population.txt"
+log_directory: "./out"
+random_seed: 2675
+max_sweeps: 100
+test_fraction: 0.02
+patience: 20
+
+# MPS parameters
+num_sites: 20
+bond_dimension: 3
+
+# params for sampling
+generate_samples: True
+samples_per_sweep: 10
+
+# optional character map
+ix_to_char: {0: '1', 1: '0'}

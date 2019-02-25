@@ -1,0 +1,16 @@
+# run parameters
+data_path: "./training_data/newyorknames15.txt"
+log_directory: "./out"
+random_seed: 2675
+max_sweeps: 100
+test_fraction: 0.2
+patience: 20
+
+# MPS parameters
+num_sites: 15
+bond_dimension: 3
+
+# params for sampling
+generate_samples: True
+samples_per_sweep: 10
+
